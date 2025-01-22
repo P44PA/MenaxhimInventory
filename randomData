@@ -1,0 +1,63 @@
+INSERT INTO items(name, category, quantity, status, location_id)
+VALUES
+('Laptop', 'Tech', 15, 'Usable', 1),
+('Desk Chair', 'Mobilje', 25, 'For Repair', 2),
+('Notebook', 'Mjete Shkollore', 50, 'Usable', 3),
+('Whiteboard', 'Mobilje', 10, 'Damaged', 4),
+('Projector', 'Tech', 5, 'Usable', 1),
+('Keyboard', 'Tech', 30, 'Usable', 1),
+('Filing Cabinet', 'Mobilje', 12, 'Damaged', 2),
+('Printer', 'Tech', 7, 'For Repair', 3),
+('Marker Set', 'Mjete Shkollore', 100, 'Usable', 4),
+('Water Bottle', 'Te tjera', 40, 'Usable', 5),
+('Desk Lamp', 'Mobilje', 20, 'For Repair', 6),
+('Mouse', 'Tech', 35, 'Usable', 1),
+('Sticky Notes', 'Mjete Shkollore', 80, 'Usable', 3),
+('Paper Clips', 'Mjete Shkollore', 4, 'Damaged', 4),
+('Binder Clips', 'Mjete Shkollore', 200, 'Usable', 4),
+('Monitor', 'Tech', 10, 'For Repair', 1),
+('Bookshelf', 'Mobilje', 8, 'Usable', 2),
+('Headphones', 'Tech', 20, 'Damaged', 1),
+('Air Purifier', 'Te tjera', 6, 'For Repair', 5),
+('Extension Cord', 'Te tjera', 50, 'Usable', 6);
+
+
+
+insert into locations ( name)
+values
+('Lab1'),
+('10-1'),
+('10-2'),
+('10-3'),
+('10-4'),
+('10-5'),
+('10-7')
+
+insert into users(username, password, role)
+values
+('dejvid' , 'dejvid123' , 'user'),
+('dev' ,'devcpp' , 'admin')
+
+
+INSERT INTO suppliers(supplier_name, contact_name, contact_email, contact_phone)
+VALUES
+('Tech Solutions Ltd.', 'Alice Johnson', 'alice.johnson@techsolutions.com', '555-123-4567'),
+('OfficePro Supplies', 'Bob Smith', 'bob.smith@officepro.com', '555-234-5678'),
+('EcoFriendly Goods', 'Catherine Lee', 'catherine.lee@ecofriendly.com', '555-345-6789'),
+('Furniture World', 'David Brown', 'david.brown@furnitureworld.com', '555-456-7890'),
+('Stationery Central', 'Ella Green', 'ella.green@stationerycentral.com', '555-567-8901'),
+('Digital Gear Co.', 'Frank White', 'frank.white@digitalgear.com', '555-678-9012'),
+('Smart Solutions', 'Grace Hill', 'grace.hill@smartsolutions.com', '555-789-0123'),
+('Quality Electronics', 'Henry Adams', 'henry.adams@qualityelectronics.com', '555-890-1234'),
+('Utility Supplies Inc.', 'Isabella Carter', 'isabella.carter@utilitysupplies.com', '555-901-2345'),
+('Office Essentials', 'Jack Cooper', 'jack.cooper@officeessentials.com', '555-012-3456'),
+('GreenTech Corp.', 'Kathy Evans', 'kathy.evans@greentech.com', '555-123-4568'),
+('Global Equipment', 'Liam Wright', 'liam.wright@globalequipment.com', '555-234-5679'),
+('Elite Supplies', 'Mia Scott', 'mia.scott@elitesupplies.com', '555-345-6780'),
+('ProOffice Inc.', 'Nathan Harris', 'nathan.harris@prooffice.com', '555-456-7891'),
+('Prime Tools', 'Olivia Turner', 'olivia.turner@primetools.com', '555-567-8902'),
+('Advance Gear', 'Peter Lee', 'peter.lee@advancegear.com', '555-678-9013'),
+('Essential Goods', 'Quinn Taylor', 'quinn.taylor@essentialgoods.com', '555-789-0124'),
+('Reliable Supplies', 'Ruby Wilson', 'ruby.wilson@reliablesupplies.com', '555-890-1235'),
+('BestChoice Co.', 'Samuel Morgan', 'samuel.morgan@bestchoice.com', '555-901-2346'),
+('Dynamic Products', 'Sophia King', 'sophia.king@dynamicproducts.com', '555-012-3457');
